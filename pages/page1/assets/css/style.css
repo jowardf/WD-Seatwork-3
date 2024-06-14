@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    /* outline: black 1px dashed; */
+}
+
+a, a:visited, a:active{
+    color: inherit;
+    text-decoration: none;
+}
+
+.img{
+    height: 6rem;
+}
+
+.izone, .ive{
+    mix-blend-mode: multiply;
+}
+
+h1, h2{
+    margin-top: 1rem;
+    text-align: center;
+}
+.home {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color:blanchedalmond;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: black 1px solid;
+    opacity: 0.9;
+    transition: 0.2s ease-in;
+}
+.home:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+  }
+
+  /* format for all header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+    /* format for all navbar classes */
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.header1{
+    color: black;
+    background-color: #EF539D;
+}
+
+.header2 {
+    color: white;
+    background-color: black;
+}
+
+.header3 {
+    outline: black 2px solid;
+    border-radius: 3px;
+    background-color: #9fb8d2;
+}
+
+.header4 {
+    background-color: #7ba6de;
+}
+
+.header5 {
+    /* outline: black 1px dashed; */
+    width: 8rem;
+    height: 100vh;
+    background-color: #e1cdff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 20px 30px 20px;
+}
+
+.nav5{
+    /* outline: black 1px dashed; */
+    display: flex;
+    flex-direction: column;
+}
+.cta {
+    border: white 2px solid;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.searchbar {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
