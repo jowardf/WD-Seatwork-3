@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    outline: black 1px dashed;
+}
+
+h1, h2{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 25%;
+}
+
+i {
+    padding: 5px;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+  }
+
+footer{
+    height: 12rem auto;
+    width: 0 auto;
+    padding: 1rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: #6f9edb;
+}
+.categories {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-section, .info-section, .socials-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.socials-section{
+    width: 30rem;
+}
+
+.p-head {
+    font-weight: bold;
+}
+
+.socmed{
+    display: flex;
+    gap: 8px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: beige;
+}
+.contact-title {
+    width: 100%;
+    letter-spacing: 15px;
+    text-align: end;
+    font-size: 30px;
+}
+.contact-me {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 1rem;
+}
+
+.user {
+    width: 30%;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 2rem;
+}
+
+.user-input {
+    padding: 10px;
+    background-color:bisque;
+    border-radius: 15px;
+}
+
+.message-btn {
+    display: flex;
+    justify-content: center;
+}
+.send-msg {
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.send-msg:active {
+    background-color: lightblue;
+    transform: scale(0.95);
+}
+
+.footer3 {
+    padding: 3rem 3rem;
+    background-color:rgb(240, 201, 185);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.comment-head {
+    text-align: center;
+    padding: 2rem;
+}
+.comment-title {
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+.comment-message {
+    height: 2rem;
+    width: 20rem;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.comment-btn {
+    height: 2rem;
+    width: 6rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer4 {
+    background-color: rgb(49, 49, 49);
+    padding: 1.5rem 3rem;
+    color: white;
+}
+.block1 {
+    display: flex;
+    margin: 2rem 8rem;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.about-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.list-cont{
+    width: 10rem;
+}
+.list2 {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+}
+.socmed2 {
+    display: flex;
+    gap: 1rem;
+}
+
+.title4 {
+    width: 10rem;
+    font-weight: bold;
+}
+
+.footer5 {
+    background-color: lightgray;
+}
+
+.tab-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.tab-all {
+    height: 100%;
+    width: 18rem;
+    display: flex;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease;
+}
+.tab1 {
+    background-color: gray;
+}
+
+.tab2 {
+    background-color: mediumseagreen;
+}
+
+.tab3 {
+    background-color: #4267B2;
+}
+
+.tab4 {
+    background-color: #1DA1F2;
+}
+
+.tab5 {
+    background-color: #0077B5;
+}
+
+ .tab-anim:hover > :not(:hover){
+    transform: scale(0.9);
+    opacity: 0.3;
+}
+
+.tab-all-anim:hover {
+   transform: scale(1.1);
+}
+
+.tab2-anim:hover {
+    box-shadow: inset 0 -200px 0 0 rgba(0, 0, 0, 0.5);;
+}
+
+.tab3-anim:hover {
+    box-shadow: inset 300px 0 0 0 rgba(0, 0, 0, 0.5);;
+}
+
+.tab4-anim:hover {
+    box-shadow: inset 0 0 0 300px rgba(0, 0, 0, 0.3);;
+    transform: translateX(5rem)
+}
+
+
+
+
