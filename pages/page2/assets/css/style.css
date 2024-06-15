@@ -5,7 +5,7 @@
 }
 
 *{
-    outline: black 1px dashed;
+    /* outline: black 1px dashed; */
 }
 
 h1, h2{
@@ -266,6 +266,65 @@ footer{
     transform: translateX(5rem)
 }
 
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
 
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.bottom-nav{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.button{
+    text-align: center;
+    padding: 10px;
+    width: 12rem;
+    color: black;
+    letter-spacing: 5px;
+    background-color:darkkhaki;
+    border: black 3px solid;
+    border-radius: 25px;
+    transition: 0.2s ease-in;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.current{
+    text-align: center;
+    padding: 15px;
+    width: 15rem;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-color:darkkhaki;
+    border: black 3px solid;
+    border-radius: 25px;
+}
 
 
