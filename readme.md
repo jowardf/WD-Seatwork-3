@@ -112,3 +112,4 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Color Hex | To search for complementing color palettes | www.color-hex.com |
+| Hover Effects | To search for different hover effects | codepen.io |
